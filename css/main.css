@@ -1,0 +1,18 @@
+/**{outline: 1px solid rgba(255,0,0,0.3);}*/
+.mg-0{margin:0px;}
+.abs{position: absolute;}
+.flip-v{transform: scaleX(-1);filter: FlipH;-ms-filter: "FlipH";}
+
+.portada{background-color: #2C3546; height: 700px; width: 100%;}
+.nombre h1{font-family: 'Pompiere'; color: #fff;}
+.nombre :first-child{font-size: 100px; top: 50px; left: 250px;}
+.nombre :nth-child(2){top:150px; font-size: 100px; left: 350px;}
+.nombre :last-child{font-size: 60px; top:300px; left: 400px;}
+.flota{height: 550px; left: 450px; top:170px;}
+.pla1{left: 450px; top: -10px; }
+.pla2{top: 180px; left: 150px;}
+.pla3{height: 80px; left: 740px; top: 130px;}
+.es1{left: 120px; top: 80px;}
+.es2{left: 710px; top: 30px;}
+.es3{left: 650px; top: 100px; transform: rotate(45deg);}
+.bri1{top: 200px; left: 30px;}
