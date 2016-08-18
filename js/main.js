@@ -23,3 +23,15 @@ var controller = new ScrollMagic.Controller();
 		//				.addIndicators({name: "2 (duration: 0)"}) 
 						.addTo(controller);
 	});
+
+$(document).ready(function(){
+	$(window).scroll(function() {
+	var scroll = $(window).scrollTop();
+	if (scroll>2000) {
+		$('#menu a').css('color','#fff');
+	}
+	else{
+		$('#menu a').css('color',' #2C3546');
+	}
+	});
+})

@@ -44,5 +44,14 @@ body{overflow-x: hidden;}
 .cuadro4{top: 900px; left: 860px;background-image: url('../images/cuadro3-compressor.png');}
 .dibuja{top: 1000px; left: 43%; transform: scale(0.8, 0.8);}
 .mesa1{ left: 15%; z-index: -1000; top: 1300px; transform: scale(0.8, 0.8);}
+.papel1{ left: 900px; z-index: -1000; top: 1200px; transform: scale(1.3, 1.3); }
+.papel2{ left: 400px; z-index: -1000; top: 1250px; transform: scale(1.8, 1.8); }
+.pin{ left: 545px; z-index: -1000; top: 1185px; transform: scale(1.8, 1.8); }
 
-.habilidades{height: 1000px;}
+.formas{z-index: 1000; height: 2000px; background-size: contain; background-repeat: no-repeat;}
+.forma4{background-image: url("../images/forma4.png");background-position-y:1200px;}
+.forma3{background-image: url("../images/forma3.png");background-position-y:1200px;}
+.forma2{background-image: url("../images/forma2.png");background-position-y:1200px;}
+.forma1{background-image: url("../images/forma1.png"); background-position-y:1200px;}
+
+.habilidades{height: 1000px; background-color: #2C3546; margin-top: 700px;}
