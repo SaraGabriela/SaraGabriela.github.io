@@ -1,40 +1,8 @@
 * {
-    outline: solid 1px red;
-}
-body{
-    background-image: linear-gradient(to bottom, #c380c9, #662d91);
-}
-/*header*/
-#header{
-    display: grid;
-    grid-template-columns: 25.2px auto 8.4px;
-}
-#header .left-arrow,
-#header .box,
-#header i{
-   display: flex;
-   align-items: center;
+
 }
 
-.left-arrow{
-    width: 25.2px;
-    height: 19.3px;
-    color: #fff;
-}
-.box{
-    display: flex;
-    justify-content: center;
-}
-#logo {
-    width: 140px;
-    height: 58px;
-}
 
-#search{
-    width: 25px;
-    height: 25px;
-    background-color: #662d91;    
-}
 
 /*----------------------------------main*/
 /*input-search*/

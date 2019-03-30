@@ -1,0 +1,43 @@
+.progres-bar{
+    width: 300px;
+    height: 15px;
+    border-radius: 7.5px;
+    /* border: solid 2px #662d91; */
+    background-color: #662d91;
+}
+#progres-bar-value{
+    width: 75px;
+    height: 15px;
+    border-radius: 7.5px;
+    border: solid 2.5px #662d91;
+    background-color: #61c8de;
+}
+.question-stage{
+    background-image: url("../image/stage/clase-01.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    width: 300px;
+    height: 460px;
+    padding: 10px;
+}
+.history{
+    border-radius: 9px;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+}
+.image-protagonist{
+    width: 227px;
+    height: 299px;
+}
+.next{
+    width: 55px;
+    height: 55px;
+    background-color: #61c8de;
+}
+.next img {
+    width: 25px;
+    height: 25px;    
+    border-radius: 100%;
+}
