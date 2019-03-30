@@ -1,0 +1,103 @@
+* {
+    outline: solid 1px red;
+}
+body{
+    background-image: linear-gradient(to bottom, #c380c9, #662d91);
+}
+/*header*/
+#header{
+    display: grid;
+    grid-template-columns: 25.2px auto 8.4px;
+}
+#header .left-arrow,
+#header .box,
+#header i{
+   display: flex;
+   align-items: center;
+}
+
+.left-arrow{
+    width: 25.2px;
+    height: 19.3px;
+    color: #fff;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+#logo {
+    width: 140px;
+    height: 58px;
+}
+
+#search{
+    width: 25px;
+    height: 25px;
+    background-color: #662d91;    
+}
+
+/*----------------------------------main*/
+/*input-search*/
+.box-input-search{
+    position: relative;
+}
+#search {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    background: transparent;
+}
+.grid-role-model{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 92.8px auto 92.8px;
+}
+.item-in-middle{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.box-role-model-selected{
+    position: relative;   
+}
+
+#combo-left, #combo-right{
+    width: 28px;
+    height: 50px;   
+    position: absolute;
+    top: 50%;
+}
+
+#combo-left{
+    left: 0;
+}
+
+#combo-right{
+    right: 0;
+    transform: rotate(180deg);
+}
+#role-model-behind{
+    width: 92.8px;
+    height: 140px;    
+}
+#role-model-selected{
+    width: 131px;
+    height: 198px;
+}
+#role-model-fordward{
+    width: 92.8px;
+    height: 140px;
+}
+
+
+
+.nkn-input{
+    border: 1px #bababa solid;
+    padding: 0.5em;
+    height: 2.4375em;
+    border-radius: 0;
+    font-size: 1em;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, .87);
+}
