@@ -4,7 +4,7 @@ var descriptionRoleModelData = ['El servicio gratuito de Google traduce instant�
                             '222222222222222 El servicio gratuito de Google traduce instantáneamente palabras, frases y páginas web del español a más de 100 idiomas y viceversa.'
                            ];
 var selector=0;                           
-var path = "C:/Users/Lenovo/Desktop/hackeando-desigualdad/image/";
+var path = "image/";
 var imgFormat = '.png';
 function render(){    
     var imgRoleModel = document.getElementsByClassName('role-model');

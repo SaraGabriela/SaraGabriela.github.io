@@ -34,7 +34,9 @@
 .next{
     width: 55px;
     height: 55px;
-    background-color: #61c8de;
+    /*background-color: #61c8de;*/
+    position: absolute;
+    right: 0;
 }
 .next img {
     width: 25px;
