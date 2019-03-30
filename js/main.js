@@ -1,7 +1,11 @@
-var imgRoleModelData = ['SOFÍA MULANOVICH','MARÍA ELENA MOYANO','LUCHA REYES','INÉS MELCHOR','HEDY LAMAR','ELENA CAFFARENA'];
-var descriptionRoleModelData = ['El servicio gratuito de Google traduce instantáneamente palabras, frases y páginas web del español a más de 100 idiomas y viceversa.',
-                            '111111111111111111111111 traduce instantáneamente palabras, frases y páginas web del español a más de 100 idiomas y viceversa.',
-                            '222222222222222 El servicio gratuito de Google traduce instantáneamente palabras, frases y páginas web del español a más de 100 idiomas y viceversa.'
+var imgRoleModelData = ['TAWAKKUL KARMAN','STEPHANIE KWOLEK','SILVIA TORRES CASTILLEJA','RUTH HANDLER','SOFÍA MULANOVICH','MARÍA ELENA MOYANO','LUCHA REYES','INÉS MELCHOR','HEDY LAMAR','ELENA CAFFARENA'];
+var descriptionRoleModelData = ['Es una periodista, política y activista yemení, Premio Nobel de la Paz 2011 «por su batalla no violenta a favor de la seguridad de las mujeres y de su pleno derecho en la plena participación de la obra de construcción de la paz».',
+'Fue una química polaco-estadounidense, inventora del Kevlar, una fibra de alta resistencia, que en la actualidad es utilizada en la elaboración de chalecos antibalas',
+'Es la primera mujer mexicana doctora en Astronomía, grado que obtuvo por la Universidad de Berkeley. Entre otros cargos, en 2009 fue la coordinadora del Año de la Astronomía en México; y dos años más tarde la ONU le otorgó el galardón L’Oreal Unesco, en el rubro de “Mujeres en la Ciencia”.',
+'Fue presidenta de la empresa de juguetes Mattel, Inc., y es recordada, principalmente, por su papel en la creación y el marketing de la muñeca Barbie.',
+
+
+
                            ];
 var selector=0;                           
 var path = "image/";
@@ -21,3 +25,9 @@ function render(){
         selector=0;
     }
 }
+
+/*function next(){
+    console.log('echo next');
+    var progresBarValue = document.getElementById('progres-bar-value');
+    progresBarValue.style.width = progresBarValue.offsetWidth + 55+'px';
+}*/
